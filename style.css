@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.root {
+    display: grid;
+    grid-template-rows: 50px auto;
+}
+
+.header {
+    background: #085972;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+}
+
+.buttonHeader {
+    border: none;
+    border-right: 1px solid gray;
+    background: initial;
+}
+
+.buttonHeader:hover {
+    background: rgba(0,0,0,.3);
+}
+
+.buttonHeader:active {
+    background: rgba(0,0,0,.6);
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background: black;
+    position: absolute;
+    /*transition: 1s ease-in;*/
+    /*transform: translate(0px, 300px);*/
+}
