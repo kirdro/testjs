@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+.root {
+    display: grid;
+    grid-template-rows: 50px auto;
+}
+
+
+.header {
+    position: fixed;
+    background: rgba(89, 64, 92, .5);
+    height: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+}
+
+.content {
+    border: 2px solid #000;
+    height: 200vh;
+    background: rgb(75, 93, 103);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundHeader {
+    background: rgb(89, 64, 92);
+}
+
+.buttonHeader {
+    border: none;
+    border-right: 1px solid #1A1A40;
+    background: initial;
+    color: #C1F8CF;
+    cursor: pointer;
+
+}
+
+.buttonHeader:hover {
+    background: #87556F;
+}
+
+.buttonHeader:active {
+    background: #322F3D;
+}
+
+.form {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    height: 300px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgb(50, 47, 61);
+}
+
+input {
+    background: initial;
+    border: 1px solid #1A1A40;
+    border-radius:20px;
+}
+
+.buttonForm {
+    background: initial;
+    border: 1px solid #1A1A40;
+    border-radius:20px;
+    color: #C1F8CF;
+}
+
+.buttonForm:hover {
+    background: #87556F;
+}
+
+.buttonForm:active {
+    background: #322F3D;
+}
